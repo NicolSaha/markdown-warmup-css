@@ -3,15 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>markdown to html</title>
+    <title>markdown warmup css</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <container>
+    <container class="container">
       <header>
         <h1>K. Nicole Saha 👩🏻‍💻</h1>
 
-        <blockquote>
+        <blockquote class="quote">
           <i>
             "For every minute you are angry, you loose 60 seconds of happiness."
           </i>
@@ -22,11 +27,16 @@
           Wandering the world leaving footprints of love everywhere I go! 💕
         </h2>
 
-        <img src="folaboutme.jpg" alt="Profile Picture" width="80%" />
+        <img
+          class="img"
+          src="folaboutme.jpg"
+          alt="Profile Picture"
+          width="100%"
+        />
       </header>
       <br />
       <main>
-        <table>
+        <table class="table">
           <colgroup span="4"></colgroup>
           <tr>
             <th>Birthday</th>
@@ -39,7 +49,7 @@
             <td>White</td>
             <td>Bibimbap</td>
             <td>
-              <fieldset>
+              <fieldset class="table">
                 <div>
                   <input type="checkbox" name="choice1" value="yes" />
                   <label for="yes">Yes</label>
@@ -103,19 +113,20 @@
         </p>
       </main>
 
-      <footer>
+      <footer class="footer">
         👋🏼
         <br />
 
         <a
           href="https://github.com/miroslavveljanoski/markdown-challenge/blob/master/README.md"
         >
-          Previous</a
+          <i>Previous</i></a
         >
         || NICOLE SAHA ||
         <a
           href="https://github.com/Ouna-Bilegma/markdown-challenge/blob/master/README.md"
-          >Next
+        >
+          <i>Next</i>
         </a>
       </footer>
     </container>
