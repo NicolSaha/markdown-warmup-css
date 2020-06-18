@@ -53,11 +53,20 @@ h2 {
   font-family: "Courier New", Courier, monospace;
   font-size: 12px;
   color: rgb(41, 38, 38);
-  width: 100%;
   display: flex;
   justify-content: center;
   table-layout: fixed;
+  border-radius: 10px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td {
+  padding: 10px;
   text-align: center;
+  border: 1px solid rgb(41, 38, 38);
+  border-radius: 10px;
 }
 
 .img {
