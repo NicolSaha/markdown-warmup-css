@@ -54,7 +54,6 @@ h2 {
   color: rgb(41, 38, 38);
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
   table-layout: fixed;
 }
